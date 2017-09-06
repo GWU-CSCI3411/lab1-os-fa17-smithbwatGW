@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
 void printhello( void ) {
-  printf( "Hello World!\n" );
+	char hello[14] = "Hello World!\n";
+	printf( "%s", hello );
 } 
